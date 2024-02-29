@@ -80,6 +80,24 @@
     margin-bottom: 10px; 
   }
 
+
+
+  @media only screen and (min-width: 768px) and (max-width: 1400px) {
+    .footerRight{
+      margin-left: -30px;
+    }
+  
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1400px) {
+    .footerRight{
+      margin-left: 30px;
+    }
+  
+  }
+
+
+
 /* Media Queries */
 @media only screen and (max-width: 768px) {
     .footerMain {
