@@ -1,0 +1,32 @@
+/* accordionUsage.css */
+
+.accordionContainer {
+  width: 460px;
+  height: 170px;
+  position: relative;
+  top: 5020px;
+  left: 135px;
+}
+
+.accordian {
+  margin-bottom: '10px';
+  border-radius: '14px';
+  background-color: '#2A2334A3';
+}
+
+.accordianHeading {
+  min-height: '8px';
+  height: '70px';
+  text-align: 'center';
+}
+
+.line {
+  border-block-start: '2px solid white';
+  margin-bottom: '25px';
+}
+
+.accordianContent {
+  color: grey;
+  font-size: 18px;
+  font-family:  'satoshi';
+}

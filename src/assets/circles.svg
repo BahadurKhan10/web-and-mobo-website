@@ -1,0 +1,24 @@
+<svg width="540" height="226" viewBox="0 0 540 226" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_84_310)">
+<circle cx="250" cy="250" r="249" transform="matrix(1 0 0 -1 100.5 125.453)" stroke="url(#paint0_linear_84_310)" stroke-width="2"/>
+<circle cx="300" cy="300" r="299" transform="matrix(1 0 0 -1 50.5 175.453)" stroke="url(#paint1_linear_84_310)" stroke-width="2"/>
+<circle cx="350" cy="350" r="349" transform="matrix(1 0 0 -1 0.5 225.453)" stroke="url(#paint2_linear_84_310)" stroke-width="2"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_84_310" x1="250" y1="0" x2="250" y2="500" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EBEBEB"/>
+<stop offset="1" stop-color="#EBEBEB" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_84_310" x1="300" y1="0" x2="300" y2="600" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EBEBEB"/>
+<stop offset="1" stop-color="#EBEBEB" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear_84_310" x1="350" y1="0" x2="350" y2="700" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EBEBEB"/>
+<stop offset="1" stop-color="#EBEBEB" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_84_310">
+<rect width="540" height="225" fill="white" transform="translate(0 0.391602)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,125 @@
+/* CSS for large screens */
+.aboutusMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.aboutusBottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 28px;
+}
+
+.aboutusHeading {
+  font-family: "cabinet grotesk";
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -1px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.aboutusParagraph {
+  font-family: "satoshi";
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  font-weight: lighter;
+  color: #dcdcdc;
+  text-align: center;
+}
+
+.aboutusCard {
+  border: 0.78px solid;
+  border-image-source: linear-gradient(
+    120.87deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  background: #2a2334a3;
+  width: 349px;
+  height: 298px;
+  border-radius: 18.76px;
+  -webkit-clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 15%);
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 15%);
+}
+
+.aboutusCard2 {
+  border: 0.78px solid;
+  border-image-source: linear-gradient(
+    120.87deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  background: linear-gradient(97.98deg, #8000ff 0%, #4200ff 54.65%, #ff0099 103.12%);
+  width: 349px;
+  height: 298px;
+  border-radius: 18.76px;
+  color: white;
+  -webkit-clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 15%);
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 15%);
+}
+
+.innerabout {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  margin-left: -14px;
+  margin-top: 45px;
+  margin-left: 20px;
+}
+
+.inner2about {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.reviewCardParagraph,
+.reviewCardParagraph2 {
+  padding: 20px;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "inter";
+}
+
+/* CSS for medium screens */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .aboutusMain {
+    margin-top: 150px;
+  }
+}
+
+/* CSS for small screens */
+@media screen and (max-width: 768px) {
+  .aboutusBottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .aboutusCard,
+  .aboutusCard2 {
+    width: 80%;
+  }
+
+  .aboutusHeading {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .aboutusParagraph {
+    font-size: 19px;
+    line-height: 24px;
+    padding-inline: 21px;
+  }
+}

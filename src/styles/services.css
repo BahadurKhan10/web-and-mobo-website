@@ -1,0 +1,125 @@
+.servicesMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .servicesHeading {
+    font-family: "cabinet grotesk";
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+  
+  .servicesCardDiv {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Add gap between cards */
+    padding: 0 20px; /* Add some padding on smaller screens */
+  }
+  
+  .servicesCard {
+    width: calc(33.33% - 40px); /* Adjust width for smaller screens */
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background: #2A2334A3;
+    padding: 20px;
+  }
+  
+  .servicesCardIcon {
+    width: 39px;
+    height: 39px;
+    margin-bottom: 20px; /* Add space below icon */
+  }
+  
+  .servicesCardHeading {
+    font-family: "cabinet grotesk";
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+    margin-bottom: 10px; /* Add space below heading */
+  }
+  
+  .servicesParagraph {
+    font-family: 'satoshi';
+    font-size: 15px;
+    margin-bottom: 10px; /* Add space below paragraph */
+    color: #babdc0;
+  }
+  
+  .serviceslastDiv {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+  
+  .servicesLearnMore {
+    text-decoration: underline;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+
+    .servicesMain{
+        margin-top:32px;
+    }
+    .servicesHeading {
+        font-size: 26px;
+    }
+
+    .servicesCardHeading{
+        margin-top: 0px;
+
+    }
+  .servicesCardIcon{
+    margin-top: 13px;
+
+  }
+    .servicesCard {
+      width: calc(50% - 40px); /* Adjust width for smaller screens */
+    }
+
+    .services-gradient {
+        position: absolute;
+        width: 31rem;
+        height: 25rem;
+        background: linear-gradient(97.98deg, #8000FF 0%, #FF0099 103.12%);
+        filter: blur(100px);
+        border-radius: 100px;
+        z-index: -2;
+        margin-right: 500px;
+        margin-top: 500px;
+        overflow-x: hidden;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .servicesHeading {
+      font-size: 26px;
+    }
+  
+    .servicesCard {
+      width: calc(100% - 40px); /* Adjust width for smaller screens */
+    }
+
+    .services-gradient {
+        position: absolute;
+        width: 31rem;
+        height: 25rem;
+        background: linear-gradient(97.98deg, #8000FF 0%, #FF0099 103.12%);
+        filter: blur(100px);
+        border-radius: 100px;
+        z-index: -2;
+        margin-right: 500px;
+        margin-top: 500px;
+        overflow-x: hidden;
+    }
+  }
+  

@@ -1,0 +1,303 @@
+.revolutionMain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+    margin-top: 60px;
+  
+    
+}
+
+.revolutionLeft{
+  margin-top: 65px;
+  position: relative;
+
+
+}
+
+
+
+.revolutionHeading {
+  font-family: "cabinet grotesk";
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -1px;
+  text-align: left;
+  margin-bottom: 14px;
+}
+
+.revolutionParagraph {
+  margin-top: 0px;
+  font-family: "satoshi";
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-weight: lighter;
+  color: #dcdcdc;
+}
+
+
+.blurRevoPic {
+  position: absolute;
+  bottom: 35px;
+  left: -48px;
+  z-index: -1;
+  
+}
+
+.revoBtn {
+    margin-top: 10px;
+
+    height: 51px;
+    width: 139px;
+    font-size: 18px;
+    background: linear-gradient(
+      97.98deg,
+      #8000ff 0%,
+      #4200ff 54.65%,
+      #ff0099 103.12%
+    );
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .revoBtn:hover {
+    background-color: #21365d;
+  }
+
+  .revolution-gradient {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    background: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%);
+    filter: blur(100px);
+    border-radius: 100px;
+    z-index: -1;
+    margin-right: 871px;
+    margin-top: 159px;
+  }
+
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .revolutionMain {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 54px;
+    }
+  
+    .revolutionLeft{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .revolutionRight{
+      align-items: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 36px;
+  
+    }
+  
+    .revolutionHeading {
+      font-size: 32px;
+      line-height: 47px;
+      letter-spacing: -1px;
+    }
+  
+    .revolutionImage{
+      width: 97%;
+      height: 408px;
+    }
+  
+    .revolutionParagraph {
+      font-size: 16px;
+      line-height: 30px;
+
+    }
+  
+    .blurRevoPic {
+      width: 113px;
+      position: absolute;
+      bottom: 48px;
+      left: -29px;
+    }
+  
+    .revolution-gradient {
+      position: absolute;
+      width: 38rem;
+      height: 16rem;
+      background: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%);
+      filter: blur(100px);
+      border-radius: 100px;
+      z-index: -2;
+      margin-right: 792px;
+      margin-top: 79px;
+    }
+  }
+
+  /* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .revolutionMain {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .revolutionLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .revolutionRight{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .revolutionHeading {
+    font-size: 38px;
+    line-height: 47px;
+    letter-spacing: -1px;
+    text-align: center;
+  }
+
+  .revolutionImage{
+    width: 97%;
+    height: 408px;
+  }
+
+  .revolutionParagraph {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    padding: 13px;
+  }
+
+  .blurRevoPic {
+    width: 113px;
+    position: absolute;
+    bottom: 48px;
+    left: -29px;
+  }
+
+  .revolution-gradient {
+position: absolute;
+    width: 42rem;
+    height: 20rem;
+    background: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%);
+    filter: blur(100px);
+    border-radius: 100px;
+    z-index: -2;
+    margin-right: 792px;
+    margin-top: -324px;
+  }
+}
+
+
+
+
+
+
+
+  /* Media query for smaller screens */
+  @media screen and (max-width: 500px) {
+    .revolutionMain {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .revoBtn {
+      height: 41px;
+      width: 124px;
+      font-size: 16px;
+      background: linear-gradient(
+        97.98deg,
+        #8000ff 0%,
+        #4200ff 54.65%,
+        #ff0099 103.12%
+      );
+      color: white;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+      line-height: 36px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+  }
+  
+  
+    .revolutionLeft{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .revolutionRight{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  
+    }
+  
+    .revolutionHeading {
+      font-size: 28px;
+      line-height: 34px;
+      letter-spacing: -1px;
+      text-align: center;
+      margin-top: -45px;
+    }
+  
+    .revolutionImage{
+      width: 98%;
+      height: 283px;
+    }
+  
+    .revolutionParagraph {
+      font-size: 11px;
+      line-height: 19px;
+      text-align: center;
+      padding: 13px;
+    }
+  
+    .blurRevoPic {
+      width: 113px;
+      position: absolute;
+      bottom: 30px;
+      left: -25px;
+    }
+  
+    .revolution-gradient {
+      position: absolute;
+      width: 18rem;
+      height: 19rem;
+      background: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%);
+      filter: blur(100px);
+      border-radius: 100px;
+      z-index: -2;
+      margin-right: 95px;
+      margin-top: -334px;
+    }
+  }

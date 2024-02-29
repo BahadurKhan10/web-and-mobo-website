@@ -1,0 +1,115 @@
+.mainNav{
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "satoshi";
+
+}
+
+.logoText {
+    font-family: 'Syne', sans-serif;
+    color: white;
+    font-size: 28px;
+}
+
+
+
+.navList{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+.contactBtn{
+  height: 51px;
+  width: 139px;
+  font-size: 18px;
+  background: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  line-height: 36px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.contactBtn:hover{
+    background-color: #21365d;
+}
+
+
+
+
+.menuIcon {
+    display: none; 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menuIcon {
+      display: block;
+      cursor: pointer;
+    }
+  .navLogo{
+    height: 41px;
+    width: 50px;
+  }
+
+  .contactBtn{
+    height: 42px;
+    width: 127px;
+    font-size: 16px;
+    background: linear-gradient(97.98deg, #8000ff 0%, #4200ff 54.65%, #ff0099 103.12%);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+    .navList {
+      display: none;
+      flex-direction: column;
+      position: fixed; /* Change position to fixed */
+      top: 60px;
+      right: 0;
+      width: 100vw; /* Set width to 100vw */
+      background-color: #18253E;
+      padding: 10px;
+      z-index: 1;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+  
+    .mainNav .navList.showMenu {
+      display: flex;
+      opacity: 1;
+    }
+  
+    .navItems {
+      /* margin-bottom: 10px; */
+      margin-top: 10px;
+    }
+  
+    .mainNav {
+      align-items: center;
+      height: 57px;
+      margin-top: 23px;
+      
+    }
+  }
+  
+  

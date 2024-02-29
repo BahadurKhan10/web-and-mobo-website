@@ -1,0 +1,163 @@
+
+@font-face {
+  font-family: 'cabinet grotesk';
+  src: url('./fonts/SF-Pro-Text-Regular.otf') format('woff2');
+}
+
+@font-face {
+  font-family: 'satoshi';
+  src: url('./fonts/Satoshi-Regular.otf') format('woff2');
+}
+
+@font-face {
+  font-family: 'inter';
+  src: url('./fonts/Inter-Regular.otf') format('woff2');
+}
+
+@font-face {
+  font-family: 'open sans';
+  src: url('./fonts/OpenSans_Condensed-Regular-BF63e1a1ce90b98.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'sf pro';
+  src: url('./fonts/SF-Pro-Text-Regular.otf') format('woff2');
+}
+
+body{
+  background-color: #191420;
+  color: white;
+}
+
+
+body
+{
+    /* width: 100%; */
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+
+.revolution-gradient {
+  position: absolute;
+  width: 31rem;
+  height: 25rem;
+  background: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%);
+  filter: blur(100px);
+  border-radius: 100px;
+  z-index: -2;
+  margin-right: 1087px;
+  margin-top: 129px;
+  overflow-x: hidden;
+
+}
+
+.smc-gradient {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  background: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%);
+  filter: blur(100px);
+  border-radius: 100px;
+  z-index: -1;
+  margin-left: 1180px;
+  margin-top: 243px;
+  overflow-x: hidden;
+
+}
+
+
+.services-gradient {
+  position: absolute;
+  width: 31rem;
+  height: 25rem;
+
+  background: linear-gradient(97.98deg, #8000FF 0%, #FF0099 103.12%);
+  filter: blur(100px);
+  border-radius: 100px;
+  z-index: -2;
+  margin-right: 500px;
+  margin-top: 129px;
+  overflow-x: hidden;
+
+}
+
+
+
+.prowly-gradient {
+  position: absolute;
+  width: 35rem;
+  height: 30rem;
+  background: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%);
+  filter: blur(100px);
+  border-radius: 100px;
+  z-index: -2;
+  margin-left: 748px;
+  margin-top: 109px;
+  overflow-x: hidden;
+
+}
+
+
+
+.accordian-gradient {
+  position: absolute;
+  width: 35rem;
+  height: 24rem;
+  background: linear-gradient(97.98deg, #8000ffbf 0%, #4200ffcc 54.65%, #ff009940 103.12%);
+  filter: blur(100px);
+  border-radius: 100px;
+  z-index: -2;
+  margin-right: 946px;
+  margin-top: -171px;
+  overflow-x: hidden;
+
+}
+
+
+
+.chooseplan-gradient {
+  position: absolute;
+  width: 29rem;
+  height: 21rem;
+  background: linear-gradient(97.98deg, #8000FF 0%, #FF0099 103.12%);
+  filter: blur(100px);
+  border-radius: 100px;
+  z-index: -2;
+  margin-right: 1015px;
+  margin-top: 62px;
+  overflow-x: hidden;
+
+}
+
+.chooseplan2-gradient {
+  position: absolute;
+  width: 29rem;
+  height: 21rem;
+  background: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%);
+  filter: blur(100px);
+  border-radius: 100px;
+  z-index: -2;
+  margin-left: 791px;
+  margin-top: 631px;
+  overflow-x: hidden;
+
+}
+
+.newsletter-gradient {
+  position: absolute;
+  width: 29rem;
+  height: 21rem;
+  background: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%);
+  filter: blur(100px);
+  border-radius: 100px;
+  z-index: -2;
+  margin-right: 791px;
+  margin-top: 184px;
+  overflow-x: hidden;
+
+}

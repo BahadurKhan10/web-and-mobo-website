@@ -1,0 +1,125 @@
+/* CSS for large screens */
+.accordianMain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 100px;
+}
+
+.accordianLeft{
+  padding-left: 125px;
+
+}
+
+.accordianHeading {
+  font-family: "cabinet grotesk";
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -1px;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-left: 25px;
+}
+
+.accordianParagraph {
+  margin-top: 0px;
+  font-family: "satoshi";
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  font-weight: lighter;
+  color: #dcdcdc;
+}
+
+.accordianImage {
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+/* CSS for medium screens */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .accordianMain {
+    flex-direction: column;
+    align-items: center;
+  }
+  .accordianLeft{
+    padding-left: 0px;
+  
+  }
+  
+  .accordianHeading {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .accordianImage {
+    margin-top: 50px;
+    margin-right: 0px;
+
+  }
+
+  .accordian-gradient {
+    position: absolute;
+    width: 19rem;
+    height: 24rem;
+    background: linear-gradient(97.98deg, #8000ffbf 0%, #4200ffcc 54.65%, #ff009940 103.12%);
+    filter: blur(100px);
+    border-radius: 100px;
+    z-index: -2;
+    margin-left: 100px;
+    margin-top: 698px;
+    overflow-x: hidden;
+}
+}
+
+/* CSS for small screens */
+@media screen and (max-width: 768px)  {
+  .accordianMain {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .accordianLeft{
+    padding-left: 0px;
+  
+  }
+
+  .accordianHeading {
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    margin-right: 26px;
+  }
+
+  .accordianParagraph {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .accordianImage {
+    margin-top: 0px;
+    height: 365px;
+    width: 342px;
+    margin-right: 0px;
+
+  }
+
+  .accordian-gradient {
+    position: absolute;
+    width: 19rem;
+    height: 24rem;
+    background: linear-gradient(97.98deg, #8000ffbf 0%, #4200ffcc 54.65%, #ff009940 103.12%);
+    filter: blur(100px);
+    border-radius: 100px;
+    z-index: -2;
+    margin-left: 100px;
+    margin-top: 698px;
+    overflow-x: hidden;
+}
+  }
+

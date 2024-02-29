@@ -1,0 +1,309 @@
+.chooseplanMain {
+  margin-top: 300px;
+}
+
+.chooseplanHeading {
+  font-family: "cabinet grotesk";
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -1px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.chooseplanTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chooseplanBottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 35px;
+}
+
+.marginContainer{
+    margin-left: 37px;
+
+}
+
+.underline {
+  width: 159px;
+  margin-top: -17px;
+  margin-left: 213px;
+}
+
+.underline2 {
+    width: 71px;
+    margin-top: -13px;
+    margin-left: 30px;}
+
+.chooseplanCard {
+  width: 380.95px;
+  height: 640.9px;
+  top: 5848.48px;
+  left: 120px;
+  border-radius: 18.76px;
+  border: 0.78px;
+  background: #2a2334a3;
+  border: 0.78px solid;
+
+  border-image-source: linear-gradient(
+    120.87deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0) 50%
+  );
+}
+
+.getStarted {
+    margin-top:60px;
+  width: 304.76px;
+  height: 43.81px;
+  top: 6393.24px;
+  left: 158.1px;
+  border-radius: 9.52px;
+  border: 1.43px;
+
+  background-color: #241d2d;
+  color: white;
+
+  border: none;
+
+  /* border-image-source: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%); */
+
+  background: linear-gradient(
+    97.98deg,
+    #8000ff 0%,
+    #4200ff 54.65%,
+    #ff0099 103.12%
+  );
+
+  /* border: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%); */
+}
+
+.numText {
+  font-family: "open sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-align: left;
+
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  margin-bottom: 0px;
+}
+
+.spanText {
+  font-family: "inter";
+  font-size: 20px;
+  margin-left: -2px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: grey;
+}
+
+
+.basicText{
+    font-family: 'open sans';
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 31px;
+    font-weight: 600; /* Change to 600 for semi-bold */
+    
+
+}
+
+.basicParaText{
+    font-family: Open Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.009em;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 2px;
+    color: #b0b0b0;
+
+
+}
+
+.pointsText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 19px;
+    margin-block: 4px;
+    font-family: 'open sans';
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #eae2e2;
+    
+
+
+}
+
+
+.hrClass{
+    width: 321px;
+    margin-left: -5px;
+    margin-bottom: 27px;
+    margin-top: 41px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .chooseplanMain {
+    margin-top: 200px;
+  }
+
+  .numText{
+    font-size: 33px;
+
+  }
+
+  .basicText{
+    font-size: 32px;
+
+  }
+
+  .underline2{
+    margin-left: 7px;
+
+  }
+
+  .underline{
+    width: 120px;
+    margin-top: -26px;
+    margin-left: 164px;
+  }
+
+  .chooseplanHeading {
+    font-size: 34px;
+  }
+
+  .chooseplanBottom {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .chooseplanCard {
+    width: 80%;
+    max-width: 380px;
+  }
+
+  .getStarted{
+    width: 237.76px;
+
+  }
+
+  .hrClass{
+    width: 240px;
+
+  }
+  .basicParaText{
+    font-size: 17px;
+
+  }
+
+  .chooseplan2-gradient {
+    position: absolute;
+    width: 20rem;
+    height: 21rem;
+    background: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%);
+    filter: blur(100px);
+    border-radius: 100px;
+    z-index: -2;
+    margin-left: 0px;
+    margin-top: 1500px;
+    overflow-x: hidden;
+}
+
+.chooseplan-gradient {
+  position: absolute;
+  width: 21rem;
+  height: 21rem;
+  background: linear-gradient(97.98deg, #8000FF 0%, #FF0099 103.12%);
+  filter: blur(100px);
+  border-radius: 100px;
+  z-index: -2;
+  margin-right: 1015px;
+  margin-top: 154px;
+  overflow-x: hidden;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+  .chooseplanMain {
+    margin-top: 250px;
+  }
+
+  .hrClass{
+    width: 240px;
+
+  }
+
+  .underline{
+    width: 120px;
+    margin-top: -26px;
+    margin-left: 164px;
+  }
+
+
+  .chooseplanHeading {
+    font-size: 34px;
+  }
+  .getStarted{
+    width: 237.76px;
+
+  }
+
+
+  .basicText{
+    font-size: 32px;
+
+  }
+
+  .basicParaText{
+    font-size: 17px;
+
+  }
+
+  .chooseplan2-gradient {
+    position: absolute;
+    width: 20rem;
+    height: 21rem;
+    background: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%);
+    filter: blur(100px);
+    border-radius: 100px;
+    z-index: -2;
+    margin-left: 0px;
+    margin-top: 1500px;
+    overflow-x: hidden;
+}
+
+.chooseplan-gradient {
+  position: absolute;
+  width: 17rem;
+  height: 21rem;
+  background: linear-gradient(97.98deg, #8000FF 0%, #FF0099 103.12%);
+  filter: blur(100px);
+  border-radius: 100px;
+  z-index: -2;
+  margin-right: 1015px;
+  margin-top: 154px;
+  overflow-x: hidden;
+}
+}

@@ -1,0 +1,207 @@
+.prowlyMain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 200px;
+    
+}
+
+.prowlyHeading {
+    font-family: "cabinet grotesk";
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-bottom: 14px;
+  }
+
+  .prowlyParagraph {
+    margin-top: 0px;
+    font-family: "satoshi";
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-weight: lighter;
+    color: #dcdcdc;
+  
+  }
+  
+  .inner{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin-left: -14px;
+
+    /* justify-content: center; */
+  }
+
+  .inner2{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+  }
+
+  .ceoText {
+    margin-top: 0px;
+    margin-bottom: 7px;
+    font-size: 26px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0px;
+  }
+  
+  .companyText {
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0px;
+  }
+  
+  .arrowIcon {
+    margin-left: 101px;
+    margin-top: 9px;
+  }
+
+
+
+  /* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .prowlyMain {
+    flex-direction: column;
+    gap: 30px; /* Adjust gap between sections */
+  }
+
+
+  .inner{
+    margin-left: 20px !important;
+
+  }
+  .inner2 {
+    margin-top: 0; /* Reset margin */
+    margin-left: 0; /* Reset margin */
+  }
+
+  .ceoPic{
+    margin-left: 1px !important;
+    height: 68px;
+
+  }
+
+  .prowlyHeading{
+    text-align: center;
+    font-size: 30px;
+
+  }
+
+  .prowlyParagraph{
+    font-size: 15px;
+    text-align: center;
+  }
+
+
+  .ceoText{
+    font-size: 20px !important;
+
+  }
+
+  .companyText{
+    font-size: 10px !important;
+
+  }
+
+  .arrowIcon{
+    height: 40px;
+    width: 93px;
+    margin-left: 30px;
+  }
+
+  .prowlyImage{
+    height: 299px;
+    width: 377px;
+    margin-top: 23px;
+
+  }
+
+  .prowly-gradient {
+    position: absolute;
+    width: 10rem;
+    height: 27rem;
+    background: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%);
+    filter: blur(100px);
+    border-radius: 100px;
+    z-index: -2;
+    margin-left: 28px;
+    margin-top: 500px;
+    overflow-x: hidden;
+}
+}
+
+/* @media screen and (max-width: 480px) {
+  .prowlyMain {
+    margin-top: 50px; 
+  }
+
+  .prowlyHeading{
+    text-align: center;
+    font-size: 30px;
+
+
+  }
+
+  .ceoPic{
+    margin-left: 1px !important;
+    height: 68px;
+
+  }
+
+  .inner{
+    margin-left: 20px ;
+
+  }
+
+  .ceoText{
+    font-size: 17px !important;
+    
+
+  }
+
+  .companyText{
+    font-size: 10px !important;
+
+  }
+
+  .prowlyImage{
+    height: 299px;
+    width: 377px;
+    margin-top: 23px;
+
+  }
+
+  .arrowIcon{
+    height: 40px;
+    width: 93px;
+    margin-left: 30px;
+  }
+
+  .prowlyParagraph{
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .prowly-gradient {
+    position: absolute;
+    width: 10rem;
+    height: 27rem;
+    background: linear-gradient(97.98deg, #8000FF 0%, #4200FF 54.65%, #FF0099 103.12%);
+    filter: blur(100px);
+    border-radius: 100px;
+    z-index: -2;
+    margin-left: 28px;
+    margin-top: 500px;
+    overflow-x: hidden;
+}
+} */

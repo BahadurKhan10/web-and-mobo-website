@@ -1,0 +1,296 @@
+.newsletterMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+
+}
+
+.newsletterSecond {
+    position: relative; /* Ensure z-index works */
+    width: 1138px;
+    height: 374px;
+    border-radius: 18.76px;
+    border: 0.78px solid;
+    text-align: center;
+    border-image-source: linear-gradient(
+      120.87deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 50%
+    );
+    background: #2a2334a3; 
+  }
+  
+  .newsletterSecond::before,
+  .newsletterSecond::after {
+    content: '';
+    position: absolute;
+    width: 436px;
+    height: 226px;
+    background-image: url('../assets/circles.svg');
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  
+  .newsletterSecond::before {
+    top: 0;
+    right: 0;
+  }
+  
+  .newsletterSecond::after {
+    bottom: 0;
+    left: 0;
+    transform: rotate(180deg); /* Rotate the SVG */
+  }
+  
+
+
+.newsletterHeading{
+    font-family: "sf pro";
+    font-size: 53px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 14px;
+
+}
+
+
+.newsletterParagraph{
+    padding: 20px;
+    font-size: 19px;
+    color: grey;
+    line-height: 24px;
+    font-family: 'sf pro';
+}
+
+.subscribeButton {
+    width: auto;
+    height: auto;
+    padding: 16px 24px; /* Separate padding values by spaces */
+    border-radius: 8px;
+    font-weight: 600;
+
+
+    font-family: 'sf pro';
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: -0.03em;
+text-align: center;
+
+  }
+
+
+  .spamText{
+    font-family: 'sf pro';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #FFFFFFA3;
+    margin-top: 42px;
+
+
+  }
+
+  .smallLeft{
+    position: relative;
+    width: 157px;
+    height: 113px;
+    top: 64.67px;
+    left: 79px;
+    padding: 16px;
+    border-radius: 10px;
+    border: 0.78px;
+    gap: 16px;
+    background: #2a2334d9;
+    text-align: center;
+    z-index: 1;
+
+  }
+
+  .smallRight {
+    position: relative;
+    width: 125px;
+    height: 69px;
+    top: 115.67px;
+    left: -79px;
+    padding: 16px;
+    border-radius: 10px;
+    border: 0.78px;
+    gap: 16px;
+    background: #2a2334;
+    text-align: center;
+  }
+
+  .patchText{
+    font-size: 11px;
+    text-align: center;
+    font-family: 'sf pro';
+
+  }
+
+  .patchText2{
+    font-size: 11px;
+    text-align: left;
+    margin-top: 3px;
+    margin-bottom: 12px;
+    font-family: 'sf pro';
+
+  }
+
+  .creatorText{
+    margin-top: 16px;
+    font-size: 23px;
+    margin-bottom: 12px;
+    font-family: 'sf pro';
+
+
+  }
+
+  .updateLogButton{
+    width: 129px;
+    padding: 8px;
+    border-radius: 6px;
+    background: #FFFFFF14;
+    border: 2px solid #ffffff00;
+    color: grey;
+    font-size: 12px;
+    font-family: 'sf pro';
+
+
+  }
+  
+
+  .joinNowButton{
+    padding: 8px;
+    border-radius: 6px;
+    gap: 10px;
+    background: #FFFFFF14;
+    border: 2px solid #ffffff00;
+    color: grey;
+    font-size: 12px;
+    width: 159px;
+    font-family: 'sf pro';
+
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .newsletterMain {
+      margin-top: 200px;
+    }
+  
+    .newsletterSecond {
+      width: 88%;
+      height: 490px;
+
+    }
+  
+    .newsletterSecond::before,
+    .newsletterSecond::after {
+      width: 50%;
+    }
+  
+    .newsletterHeading {
+      font-size: 6vw;
+      margin-top: 69px;
+
+    }
+  
+    .newsletterParagraph {
+      font-size: 4vw;
+    }
+  
+    .subscribeButton {
+      font-size: 3vw;
+    }
+  
+    .spamText {
+      font-size: 2vw;
+    }
+
+    .smallRight {
+      position: absolute;
+      top: -56px;
+      width: 40%;
+      left: -3px;
+      width: 137px;
+
+    }
+  
+    .smallLeft {
+      width: 0%;
+      position: absolute;
+      top: 501px;
+      width: 40%;
+
+
+    }
+
+    .creatorText{
+      font-size: 16px;
+
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .newsletterMain {
+      margin-top: 200px;
+    }
+  
+    .newsletterSecond {
+      width: 88%;
+      height: 490px;
+
+    }
+  
+    .newsletterSecond::before,
+    .newsletterSecond::after {
+      width: 60%;
+    }
+  
+    .newsletterHeading {
+      font-size: 8vw;
+      margin-top: 69px;
+
+    }
+  
+    .newsletterParagraph {
+      font-size: 5vw;
+    }
+  
+    .subscribeButton {
+      font-size: 4vw;
+    }
+  
+    .spamText {
+      font-size: 3vw;
+    }
+  
+    .smallRight {
+      position: absolute;
+      top: -56px;
+      width: 40%;
+      left: 23px;
+      width: 137px;
+    }
+
+    .creatorText{
+      font-size: 16px;
+
+    }
+  
+    .smallLeft {
+      width: 0%;
+      position: absolute;
+      top: 440px;
+      width: 40%;
+      left: 167px;
+
+
+    }
+  }
+  
